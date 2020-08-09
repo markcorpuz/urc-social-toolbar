@@ -207,6 +207,7 @@ function setup_social_toolbar_function() {
     // .'#ver='.date( 'YmdHis', filemtime( plugin_dir_path( __FILE__ ).'../images/arrow.png' ) )
 }
 
+
 /* --------------------------------------------------------------------------------------------
  * | GET POST ID
  * ----------------------------------------------------------------------------------------- */
@@ -220,9 +221,6 @@ function spk_master_get_post_id( $slug ) {
 	    return $post->ID;
 
 }
-
-
-
 
 
 /* --------------------------------------------------------------------------------------------
@@ -251,6 +249,16 @@ function setup_social_toolbar_scripts() {
     // Enqueued script with localized data.
     wp_enqueue_script( 'setup_social_toolbar' );
 
+
+    // ADDTHIS
+    //wp_enqueue_script( 'addthis_external', 'http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5580891d2117b457' );
+    /*
+    ?><script type='text/javascript' src='http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5580891d2117b457'></script><?php
+    */
+
+    // ACCORDION
+    wp_enqueue_script( 'addthis_external', plugins_url( 'js/asset_accordion.js', __FILE__ ) );
+
 }
 
 /* --------------------------------------------------------------------------------------------
@@ -260,10 +268,10 @@ if ( !is_admin() ) {
 
     // ENQUEUE SCRIPTS
     //add_action( 'wp_enqueue_scripts', 'setup_social_toolbar_scripts' );
-    add_action( 'wp_footer', 'setup_social_toolbar_scripts', 5 );
+    add_action( 'wp_footer', 'setup_social_toolbar_scripts', 1 );
 
 	// ADD HTML & JAVASCRIPTS TO THE FOOTER FOR THE SOCIAL TOOLBAR
     // wp_footer | genesis_before_footer
-    add_action( 'wp_footer', 'setup_social_toolbar_function', 1 );
+    add_action( 'wp_footer', 'setup_social_toolbar_function', 2 );
 
 }
