@@ -256,9 +256,6 @@ function setup_social_toolbar_scripts() {
     ?><script type='text/javascript' src='http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5580891d2117b457'></script><?php
     */
 
-    // ACCORDION
-    wp_enqueue_script( 'addthis_external', plugins_url( 'js/asset_accordion.js', __FILE__ ) );
-
 }
 
 /* --------------------------------------------------------------------------------------------
