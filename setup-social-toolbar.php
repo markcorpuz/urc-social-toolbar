@@ -228,7 +228,13 @@ function spk_master_get_post_id( $slug ) {
  * ----------------------------------------------------------------------------------------- */
 function setup_social_toolbar_scripts() {
 
-	$scripts = array( 'jquery-ui-core', 'jquery-effects-core', 'jquery-effects-slide', 'jquery-effects-fade', 'jquery-ui-accordion' );
+	$scripts = array(
+        'jquery-ui-core',
+        'jquery-effects-core',
+        'jquery-effects-slide',
+        //'jquery-effects-fade',
+        //'jquery-ui-accordion'
+    );
 	foreach ( $scripts as $value ) {
 		if( !wp_script_is( $value, 'enqueued' ) ) {
         	wp_enqueue_script( $value );
@@ -238,7 +244,7 @@ function setup_social_toolbar_scripts() {
 	// --------------
 
     // last arg is true - will be placed before </body>
-    wp_register_script( 'setup_social_toolbar', plugins_url( 'js/asset.js', __FILE__ ), NULL, '1.0', TRUE );
+    wp_register_script( 'setup_social_toolbar', plugins_url( 'js/asset-min.js', __FILE__ ), NULL, '1.0', TRUE );
      
     // Localize the script with new data
     /*$translation_array = array(
