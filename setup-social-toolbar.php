@@ -115,11 +115,6 @@ function setup_social_toolbar_function() {
             </div>
             <div class="divider-line clearfix space-vertical-half"></div>
             <div class="media">
-            <div class="media-img"><a class="item-icon icon-emailcoaching" href="<?php echo get_permalink( spk_master_get_post_id( 'email-coaching' ) ); ?>"></a></div>
-            <div class="media-bd"><a href="<?php echo get_permalink( spk_master_get_post_id( 'email-coaching' ) ); ?>"><h5>Emergency Email Response Coaching</h5></a></div>
-            </div>
-            <div class="divider-line clearfix space-vertical-half"></div>
-            <div class="media">
             <div class="media-img"><a class="item-icon icon-amazon" href="<?php echo get_permalink( '22910' ); ?>"></a></div>
             <div class="media-bd"><a href="<?php echo get_permalink( '22910' ); ?>"><h5>Self-Help Products, Books, Supplements, Etc. I Recommend</h5></a></div>
             </div>
@@ -171,11 +166,6 @@ function setup_social_toolbar_function() {
             </div>
             <div class="divider-line clearfix space-vertical-half"></div>
             <div class="media">
-            <div class="media-img media-right"><a class="item-icon icon-emailcoaching" href="<?php echo get_permalink( spk_master_get_post_id( 'email-coaching' ) ); ?>"></a></div>
-            <div class="media-bd"><a href="<?php echo get_permalink( spk_master_get_post_id( 'email-coaching' ) ); ?>"><h5>Emergency Email Response Coaching</h5></a></div>
-            </div>
-            <div class="divider-line clearfix space-vertical-half"></div>
-            <div class="media">
             <div class="media-img media-right"><a class="item-icon icon-amazon" href="<?php echo get_permalink( '22910' ); ?>"></a></div>
             <div class="media-bd"><a href="<?php echo get_permalink( '22910' ); ?>"><h5>Self-Help Products, Books, Supplements, Etc. I Recommend</h5></a></div>
             </div>
@@ -206,6 +196,21 @@ function setup_social_toolbar_function() {
     <?php
     // .'#ver='.date( 'YmdHis', filemtime( plugin_dir_path( __FILE__ ).'../images/arrow.png' ) )
 }
+/*
+// REMOVED FROM LINE 116
+<div class="divider-line clearfix space-vertical-half"></div>
+<div class="media">
+<div class="media-img"><a class="item-icon icon-emailcoaching" href="<?php echo get_permalink( spk_master_get_post_id( 'email-coaching' ) ); ?>"></a></div>
+<div class="media-bd"><a href="<?php echo get_permalink( spk_master_get_post_id( 'email-coaching' ) ); ?>"><h5>Emergency Email Response Coaching</h5></a></div>
+</div>
+
+// REMOVED FORM LINE 167
+<div class="divider-line clearfix space-vertical-half"></div>
+<div class="media">
+<div class="media-img media-right"><a class="item-icon icon-emailcoaching" href="<?php echo get_permalink( spk_master_get_post_id( 'email-coaching' ) ); ?>"></a></div>
+<div class="media-bd"><a href="<?php echo get_permalink( spk_master_get_post_id( 'email-coaching' ) ); ?>"><h5>Emergency Email Response Coaching</h5></a></div>
+</div>
+*/
 
 
 /* --------------------------------------------------------------------------------------------
@@ -228,13 +233,7 @@ function spk_master_get_post_id( $slug ) {
  * ----------------------------------------------------------------------------------------- */
 function setup_social_toolbar_scripts() {
 
-	$scripts = array(
-        'jquery-ui-core',
-        'jquery-effects-core',
-        'jquery-effects-slide',
-        //'jquery-effects-fade',
-        //'jquery-ui-accordion'
-    );
+	$scripts = array( 'jquery-ui-core', 'jquery-effects-core', 'jquery-effects-slide', 'jquery-effects-fade', 'jquery-ui-accordion' );
 	foreach ( $scripts as $value ) {
 		if( !wp_script_is( $value, 'enqueued' ) ) {
         	wp_enqueue_script( $value );
