@@ -68,7 +68,6 @@ function setup_social_toolbar_function() {
                     <span><a class="item-icon icon-linkedin" href="https://www.linkedin.com/in/coachcoreywayne"></a></span>
                     <span><a class="item-icon icon-youtube" href="https://www.youtube.com/user/coachcoreywayne?sub_confirmation=1"></a></span>
                     <span><a class="item-icon icon-instagram" href="https://instagram.com/CoachCoreyWayne/"></a></span>
-                    <span><a class="item-icon icon-pinterest" href="https://www.pinterest.com/coachcoreywayne/"></a></span>
                     <span><a class="item-icon icon-medium" href="https://medium.com/@coachcoreywayne"></a></span>
                     <span><a class="item-icon icon-soundcloud" href="https://soundcloud.com/coachcoreywayne"></a></span>
 					<span><a class="item-icon icon-podcast" href="https://itunes.apple.com/us/podcast/coach-corey-wayne/id1396723809?mt=2"></a></span>';
