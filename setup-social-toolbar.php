@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Setup Social Toolbar
+ * Plugin Name: URC Social Toolbar
  * Description: A toolbar that contains important information as well as buttons for sharing content.
- * Version: 4.0
+ * Version: 4.0.1
  * Author: Jake Almeda
  * Author URI: http://smarterwebpackages.com/
  * Network: true
