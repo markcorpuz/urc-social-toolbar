@@ -2,7 +2,7 @@
 /**
  * Plugin Name: URC Social Toolbar
  * Description: A toolbar that contains important information as well as buttons for sharing content.
- * Version: 4.0.1
+ * Version: 4.0.2
  * Author: Jake Almeda
  * Author URI: http://smarterwebpackages.com/
  * Network: true
@@ -88,7 +88,13 @@ function setup_social_toolbar_function() {
 				<div>eBook | <a href="http://amzn.to/2CPRhI8">Kindle - $9.99</a> | <a href="https://geo.itunes.apple.com/us/book/mastering-yourself-how-to-align-your-life-your-true/id1353139487?mt=11&at=1l3vuUo">iBook - $9.99</a> | <a href="http://www.lulu.com/shop/corey-wayne/mastering-yourself-how-to-align-your-life-with-your-true-calling-reach-your-full-potential/ebook/product-23536468.html">Lulu.com - $9.99</a></div>
 				<div>Paperback | <a href="http://amzn.to/2oB0HmB">Amazon - $49.99</a> | <a href="http://www.lulu.com/shop/corey-wayne/mastering-yourself-how-to-align-your-life-with-your-true-calling-reach-your-full-potential/paperback/product-23528167.html">Lulu.com - $49.99</a></div>
 				<div>Hardcover | <a href="https://amzn.to/2Gvg238">Amazon - $99.99</a> | <a href="http://www.lulu.com/shop/corey-wayne/mastering-yourself-how-to-align-your-life-with-your-true-calling-reach-your-full-potential/hardcover/product-23537349.html">Lulu.com - $99.99</h5></a></div>
-				</div>';
+				</div>
+
+                <h4>Quotes, Ruminations & Contemplations</h4>
+                <div class="fontsize-xsml space-bottom-half">
+                <div>Audiobook | <a href="https://www.audible.com/pd/B0941XDDCJ/?source_code=AUDFPWS0223189MWT-BK-ACX0-256995&ref=acx_bty_BK_ACX0_256995_rh_us">Audible - FREE Trial</a> | <a href="https://amzn.to/3eDAbU6">Audible - $24.95</a> | <a href="https://books.apple.com/us/audiobook/quotes-ruminations-contemplations-volume-i-unabridged/id1567242372?itsct=books_box_link&itscg=30200&ct=audio-books_quotes%2C_ruminations_%26_contem&ls=1">iTunes - $24.95</a></div>
+                <div>eBook | <a href="https://amzn.to/33K8VwF">Kindle - $9.99</a> | <a href="https://books.apple.com/us/book/quotes-ruminations-contemplations/id1563102111?itsct=books_box_link&itscg=30200&ct=books_quotes%2C_ruminations_%26_contemplatio&ls=1">iBook - $9.99</a></div>
+                <div>Paperback | <a href="https://amzn.to/3y8RiF5">Amazon - $49.99</a> | Hardcover <a href="https://amzn.to/3bkpQtW">Amazon - $49.99</a></div>';
     
     ?>
 
