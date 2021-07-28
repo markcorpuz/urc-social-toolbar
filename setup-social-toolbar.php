@@ -94,7 +94,8 @@ function setup_social_toolbar_function() {
                 <div class="fontsize-xsml space-bottom-half">
                 <div>Audiobook | <a href="https://www.audible.com/pd/B0941XDDCJ/?source_code=AUDFPWS0223189MWT-BK-ACX0-256995&ref=acx_bty_BK_ACX0_256995_rh_us">Audible - FREE Trial</a> | <a href="https://amzn.to/3eDAbU6">Audible - $24.95</a> | <a href="https://books.apple.com/us/audiobook/quotes-ruminations-contemplations-volume-i-unabridged/id1567242372?itsct=books_box_link&itscg=30200&ct=audio-books_quotes%2C_ruminations_%26_contem&ls=1">iTunes - $24.95</a></div>
                 <div>eBook | <a href="https://amzn.to/33K8VwF">Kindle - $9.99</a> | <a href="https://books.apple.com/us/book/quotes-ruminations-contemplations/id1563102111?itsct=books_box_link&itscg=30200&ct=books_quotes%2C_ruminations_%26_contemplatio&ls=1">iBook - $9.99</a></div>
-                <div>Paperback | <a href="https://amzn.to/3y8RiF5">Amazon - $49.99</a> | Hardcover <a href="https://amzn.to/3bkpQtW">Amazon - $49.99</a></div>';
+                <div>Paperback | <a href="https://amzn.to/3y8RiF5">Amazon - $49.99</a> | Hardcover <a href="https://amzn.to/3bkpQtW">Amazon - $49.99</a></div>
+                </div>';
     
     ?>
 
@@ -165,20 +166,12 @@ function setup_social_toolbar_function() {
     <!-- COMPACT VERSION - PRODUCTS -->
     <div class="st_mobile_buybook_2">
         <div class="wrap">
-            <div class="media">
-            <div class="media-img media-right"><a class="item-icon icon-phonecoaching" href="<?php echo get_permalink( spk_master_get_post_id( 'phone-coaching' ) ); ?>"></a></div>
-            <div class="media-bd"><a href="<?php echo get_permalink( '22818' ); ?>"><h5>1 Hour Phone/Skype Coaching Session</h5></a></div>
-            </div>
+            <div><a href="<?php echo get_permalink( '22910' ); ?>"><h5>Self-Help Products, Books, Supplements, Etc. I Recommend</h5></a></div>
             <div class="divider-line clearfix space-vertical-half"></div>
-            <div class="media">
-            <div class="media-img media-right"><a class="item-icon icon-amazon" href="<?php echo get_permalink( '22910' ); ?>"></a></div>
-            <div class="media-bd"><a href="<?php echo get_permalink( '22910' ); ?>"><h5>Self-Help Products, Books, Supplements, Etc. I Recommend</h5></a></div>
-            </div>
+            <div><a href="<?php echo get_permalink( '22818' ); ?>"><h5>1 Hour Phone/Skype Coaching Session</h5></a></div>
             <div class="divider-line clearfix space-vertical-half"></div>
-            <div class="media">
-            <div class="media-img media-right"><a class="item-pic pic-ebook" href="<?php echo get_permalink( spk_master_get_post_id( 'free-ebook' ) ); ?>"></a></div>
-            <div class="media-bd"><?php echo $media_bd; ?></div>
-            </div>
+            <div><a class="item-pic pic-ebook" href="<?php echo get_permalink( spk_master_get_post_id( 'free-ebook' ) ); ?>"></a></div>
+            <div><?php echo $media_bd; ?></div>
         </div>
     </div>
 
