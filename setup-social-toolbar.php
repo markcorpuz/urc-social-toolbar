@@ -2,7 +2,7 @@
 /**
  * Plugin Name: URC Social Toolbar
  * Description: A toolbar that contains important information as well as buttons for sharing content.
- * Version: 4.0.2
+ * Version: 4.0.3
  * Author: Jake Almeda
  * Author URI: http://smarterwebpackages.com/
  * Network: true
@@ -231,7 +231,8 @@ function spk_master_get_post_id( $slug ) {
  * ----------------------------------------------------------------------------------------- */
 function setup_social_toolbar_scripts() {
 
-	$scripts = array( 'jquery-ui-core', 'jquery-effects-core', 'jquery-effects-slide', 'jquery-effects-fade', 'jquery-ui-accordion' );
+	//$scripts = array( 'jquery-ui-core', 'jquery-effects-core', 'jquery-effects-slide', 'jquery-effects-fade', 'jquery-ui-accordion' );
+    $scripts = array( 'jquery-effects-core', 'jquery-effects-slide', 'jquery-effects-fade' );
 	foreach ( $scripts as $value ) {
 		if( !wp_script_is( $value, 'enqueued' ) ) {
         	wp_enqueue_script( $value );
