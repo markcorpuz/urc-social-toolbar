@@ -49,28 +49,27 @@ function setup_social_toolbar_function() {
     $howtosupportmywork = '<div class="wrap">
                                 <div>
                                     <h5 class="space-bottom-half">How To Support My Work</h5>
-                                    <a class="item-pic pic-paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LKGTSSLYJ93J6"></a>
+                                    <a onclick="TPM_aBookAudibleFree()" class="space-bottom-half" href="https://www.paypal.com/donate/?hosted_button_id=KNH8SDFGVT8UC"><figure class="wp-block-image size-full is-resized"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/sprites/cta-sb-logo-paypal.png" alt="" class="wp-image-57687" width="99" height="25" loading="lazy"/></figure></a>
                                     <div class="fontsize-xxsml space-bottom-half">This is a member supported site. You tip your favorite bartender, right? How about a buck, $2, $3, $5, maybe $10? Whatever YOU feel its worth, every time you feel I have given you a good tip, new knowledge or helpful insight. Please feel free to donate any amount you think is equal to the value you received from my eBook & Home Study Course (audio lessons), articles, emails, videos, newsletters, etc.</div>
-                                    <a class="button space-bottom-half" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LKGTSSLYJ93J6"><h5>DONATE VIA PAYPAL</h5></a>
+                                    <a class="button space-bottom-half" href="https://www.paypal.com/donate/?hosted_button_id=KNH8SDFGVT8UC"><h5>DONATE VIA PAYPAL</h5></a>
                                     <div class="fontsize-xxsml space-bottom-half">Just click the "Donate" button above to enter your donation/gratuity. Thanks in advance for your support! From my heart to yours, Corey Wayne.</div>
                                 </div>
                             </div>';
     
     $sharesocialmedia = '<div class="wrap">
                             <div><h6 class="space-bottom-half">Share Page on Social Media:</h6></div>
-                            <span><div><a class="item-icon-bar icon-twitter" href="https://twitter.com/share?url='.$absolute_url.'&text='.$share_text.'" target="_blank"></a></div></span>
-                            <span><div><a class="item-icon-bar icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u='.$absolute_url.'" target="_blank"></a></div></span>
-                            <span><div><a class="addthis_button_compact"></a></div></span>
-                         </div>'; // <img src="http://s7.addthis.com/static/btn/sm-plus.gif" width="16" height="16" border="0" alt="Share" />
+                            <span><div><a class="item-icon-bar icon-twitter" href="https://twitter.com/share?url='.$absolute_url.'&text='.$share_text.'" target="_blank"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/bar-twitter.png" alt="" class="" width="53" height="17" loading="lazy"/></a></div></span>
+                            <span><div><a class="item-icon-bar icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u='.$absolute_url.'" target="_blank"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/bar-fbshare.png" alt="" class="" width="51" height="17" loading="lazy"/></a></div></span>
+                         </div>';
 
-    $followcorey = '<span><a class="item-icon icon-twitter" href="https://www.twitter.com/CoachCoreyWayne"></a></span>
-                    <span><a class="item-icon icon-facebook" href="https://www.facebook.com/Coach.Corey.Wayne"></a></span>
-                    <span><a class="item-icon icon-linkedin" href="https://www.linkedin.com/in/coachcoreywayne"></a></span>
-                    <span><a class="item-icon icon-youtube" href="https://www.youtube.com/user/coachcoreywayne?sub_confirmation=1"></a></span>
-                    <span><a class="item-icon icon-instagram" href="https://instagram.com/CoachCoreyWayne/"></a></span>
-                    <span><a class="item-icon icon-medium" href="https://medium.com/@coachcoreywayne"></a></span>
-                    <span><a class="item-icon icon-soundcloud" href="https://soundcloud.com/coachcoreywayne"></a></span>
-					<span><a class="item-icon icon-podcast" href="https://itunes.apple.com/us/podcast/coach-corey-wayne/id1396723809?mt=2"></a></span>';
+    $followcorey = '<span><a class="item-icon icon-twitter" href="https://www.twitter.com/CoachCoreyWayne"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/icon-twitter.png" alt="" class="" width="32" height="32" loading="lazy"/></a></span>
+                    <span><a class="item-icon icon-facebook" href="https://www.facebook.com/Coach.Corey.Wayne"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/icon-facebook.png" alt="" class="" width="32" height="32" loading="lazy"/></a></span>
+                    <span><a class="item-icon icon-linkedin" href="https://www.linkedin.com/in/coachcoreywayne"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/icon-linkedin.png" alt="" class="" width="32" height="32" loading="lazy"/></a></span>
+                    <span><a class="item-icon icon-youtube" href="https://www.youtube.com/user/coachcoreywayne?sub_confirmation=1"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/icon-youtube.png" alt="" class="" width="32" height="32" loading="lazy"/></a></span>
+                    <span><a class="item-icon icon-instagram" href="https://instagram.com/CoachCoreyWayne/"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/icon-instagram.png" alt="" class="" width="32" height="32" loading="lazy"/></a></span>
+                    <span><a class="item-icon icon-medium" href="https://medium.com/@coachcoreywayne"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/icon-medium.png" alt="" class="" width="32" height="32" loading="lazy"/></a></span>
+                    <span><a class="item-icon icon-soundcloud" href="https://soundcloud.com/coachcoreywayne"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/icon-soundcloud.png" alt="" class="" width="32" height="32" loading="lazy"/></a></span>
+					<span><a class="item-icon icon-podcast" href="https://itunes.apple.com/us/podcast/coach-corey-wayne/id1396723809?mt=2"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/icon-podcast.png" alt="" class="" width="32" height="32" loading="lazy"/></a></span>';
 
     $media_bd = '<a href="'.get_permalink( spk_master_get_post_id( 'free-ebook' ) ).'"><h5 class="space-bottom-half">Free eBook &amp; Online Audio Program Access</h5></a>                 
 
@@ -107,7 +106,7 @@ function setup_social_toolbar_function() {
     <!-- DESKTOP VERSION - BOOK -->
     <div class="st_desktop_book_pop"><div class="wrap">
         <div class="media">
-        <div class="media-img"><a class="item-pic pic-ebook" href="<?php echo get_permalink( spk_master_get_post_id( 'free-ebook' ) ); ?>"></a></div>
+        <div class="media-img"><a class="item-pic" href="<?php echo get_permalink( spk_master_get_post_id( 'free-ebook' ) ); ?>"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/cta/cta-mobile-bookset-all-books-icon.png" alt="" class="" width="50" height="50" loading="lazy"/></a></div>
         <div class="media-bd"><?php echo $media_bd; ?></div>
         </div>
     </div></div>
@@ -134,18 +133,15 @@ function setup_social_toolbar_function() {
         <div class="st_desktop_follow"><?php echo $followcorey; ?></div>
             
         <div class="st_desktop_donate">
-            <div class="st-desktop-cta-donate"></div>
+            <div class="st-desktop-cta-donate"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/bar-donate.png" alt="" class="" width="187" height="42" loading="lazy"/></div>
         </div>
 
         <div class="st_desktop_book">
-            <div class="st-desktop-cta-book"></div>
+            <div class="st-desktop-cta-book"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/bar-books.png" alt="" class="" width="200" height="42" loading="lazy"/></div>
         </div>
 
         <div class="st_desktop_products">
-            <div class="st-desktop-cta-product"></div>
-        </div>
-
-        <div class="st_desktop_coaching">
+            <div class="st-desktop-cta-product"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/bar-coaching.png" alt="" class="" width="187" height="42" loading="lazy"/></div>
         </div>
 
         <div class="st_desktop_share"><?php echo $sharesocialmedia; ?></div>
