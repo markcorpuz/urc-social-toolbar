@@ -2,7 +2,7 @@
 /**
  * Plugin Name: URC Social Toolbar
  * Description: A toolbar that contains important information as well as buttons for sharing content.
- * Version: 4.0.3
+ * Version: 4.0.4
  * Author: Jake Almeda
  * Author URI: http://smarterwebpackages.com/
  * Network: true
@@ -115,12 +115,12 @@ function setup_social_toolbar_function() {
     <div class="st_desktop_products_pop">
         <div class="wrap">
             <div class="media">
-            <div class="media-img"><a class="item-icon icon-phonecoaching" href="<?php echo get_permalink( spk_master_get_post_id( 'phone-coaching' ) ); ?>"></a></div>
+            <div class="media-img"><a class="item-icon icon-phonecoaching" href="<?php echo get_permalink( spk_master_get_post_id( 'phone-coaching' ) ); ?>"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/icon-phone.png" alt="" class="" width="32" height="32" loading="lazy"/></a></div>
             <div class="media-bd"><a href="<?php echo get_permalink( '22818' ); ?>"><h5>1 Hour Phone/Skype Coaching Session</h5></a></div>
             </div>
             <div class="divider-line clearfix space-vertical-half"></div>
             <div class="media">
-            <div class="media-img"><a class="item-icon icon-amazon" href="<?php echo get_permalink( '22910' ); ?>"></a></div>
+            <div class="media-img"><a class="item-icon icon-amazon" href="<?php echo get_permalink( '22910' ); ?>"><img src="https://understandingrelationships.com/wp-content/themes/cor-2021/assets/images/toolbar/icon-recommended.png" alt="" class="" width="32" height="32" loading="lazy"/></a></div>
             <div class="media-bd"><a href="<?php echo get_permalink( '22910' ); ?>"><h5>Self-Help Products, Books, Supplements, Etc. I Recommend</h5></a></div>
             </div>
         </div>
